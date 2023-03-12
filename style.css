@@ -1,0 +1,132 @@
+@font-face {
+    font-family: netflix-regular;
+    src: url(/assets/Font/Poppins-Medium.ttf);
+}
+body{
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: netflix-regular;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+}
+.logo{
+    width: 11%;
+    color: #e50914;
+    margin-left: 100px;
+}
+.btn-sign-in{
+    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-titles-container{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.main-title{
+    font-family: netflix-regular;
+    font-size: 3.2em;
+    margin-bottom: 14px;
+    line-height: 1.1;
+}
+.main-subtitle{
+    font-family: netflix-regular;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.main-text{
+    font-family: netflix-regular;
+    font-size: 1.2em;
+}
+.email-container{
+     width: 55%;
+     height: fit-content;
+     background-color: rgba(22, 22, 22, 0.7);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 0.25rem;
+}
+.email-input{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+    background-color: rgba(22, 22, 22, 0.7);
+    color: aliceblue;
+    border-radius: 0.25rem;
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn-get-started:hover {
+    background-color: #ff0b18;
+}
+.table{
+    padding: 50px 12%;
+    font-size: 22px;
+    padding-top: 50px;
+}
+.col{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+ .img-col-img{
+    display: block;
+    width: 90%;
+    margin: auto;
+ }
