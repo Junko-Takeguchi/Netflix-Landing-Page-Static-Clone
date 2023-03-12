@@ -7,7 +7,7 @@ body{
     color: white;
     margin: 0;
     padding: 0;
-    font-family: netflix-regular;
+    font-family: 'Poppins', sans-serif;
 }
 h2{
     font-size: 50px;
@@ -42,7 +42,7 @@ h2{
     color: white;
     cursor: pointer;
     width: fit-content;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .main-container{
     width: 100%;
@@ -59,18 +59,18 @@ h2{
     text-align: center;
 }
 .main-title{
-    font-family: netflix-regular;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.2em;
     margin-bottom: 14px;
     line-height: 1.1;
 }
 .main-subtitle{
-    font-family: netflix-regular;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
     margin-bottom: 30px;
 }
 .main-text{
-    font-family: netflix-regular;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
 }
 .email-container{
@@ -109,6 +109,7 @@ h2{
     padding: 50px 12%;
     font-size: 22px;
     padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 .col{
     display: flex;
@@ -116,14 +117,17 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
 }
 .text-col{
     flex-basis: 50%;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .img-col{
     flex-basis: 50%;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
  .img-col-img{
     display: block;
